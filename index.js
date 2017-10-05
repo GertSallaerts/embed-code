@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
             script.element.parentNode.insertBefore(preEl, script.element);
 
             if (window.Prism)
-                window.Prism.highlightElement(preEl);
+                window.Prism.highlightElement(codeEl);
         });
     });
 });
